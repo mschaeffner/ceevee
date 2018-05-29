@@ -8,5 +8,3 @@
 layout: home
 title: Blog
 ---
-
-This is the index page.

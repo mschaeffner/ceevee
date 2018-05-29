@@ -5,17 +5,23 @@
 
   <body>
 
-    {%- include about.html -%}
+    <div class="container">
 
-    {%- include header.html -%}
+      {%- include sidebar.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+      <div class="main">
+
+        {%- include header.html -%}
+
+        <div class="content">
+          {{ content }}
+        </div>
+
       </div>
-    </main>
 
-    <!-- {%- include footer.html -%} -->
+      <!-- {%- include footer.html -%} -->
+
+    </div>
 
   </body>
 
