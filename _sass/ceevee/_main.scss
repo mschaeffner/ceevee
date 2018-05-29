@@ -4,24 +4,32 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
-  font-family: "Helvetica Neue";
-  background-color: #eee;
+  font-family: 'Lato';
+  line-height: 150%;
+}
+
+body {
+  background-color: #f7f7f7;
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
+  position: relative;
 }
 
 .sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
   text-align: center;
-  width: 280px;
-  background-color: #EEE;
-  border-radius: 5px;
-  border: 1px solid #DDD;
-  box-sizing: border-box;
-  margin: 25px;
+  width: 250px;
+  background-color: #FFF;
   padding: 25px;
+  border-right: 1px solid #EEE;
+  box-sizing: border-box;
+  background-color: #FFF;
+  color: #333;
+  box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
 }
 
 .sidebar-image {
@@ -33,22 +41,29 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 }
 
 .sidebar-name {
-  font-size: 24px;
+  font-size: 20px;
   margin-top: 20px;
+  font-family: 'PT Serif';
 }
 
 .sidebar-title {
   font-size: 14px;
-  color: #888;
+  color: #777;
 }
 
 .sidebar-section {
   text-align: left;
   margin-top: 25px;
+  > p {
+    color: #777;
+  }
 }
 
 .main {
-  flex: 1;
+  padding-left: 270px;
+  padding-right: 20px;
+  max-width: 1250px;
+  box-sizing: border-box;
 }
 
 
@@ -60,20 +75,26 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 }
 
 .nav {
-  padding: 25px 0;
+  padding: 20px 0 40px 0;
+}
+
+.nav-icon {
+  margin-right: 10px;
 }
 
 .nav-link {
   text-decoration: none;
-  color: blue;
+  color: #333;
   font-size: 24px;
   font-weight: bold;
-  margin-right: 25px;
+  margin-right: 40px;
   text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 3px;
 }
 
 .nav-link-active {
-  text-decoration: underline;
+  border-bottom: 4px solid #333;
 }
 
 
@@ -87,13 +108,22 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 .post {
   display: flex;
   flex-direction: row;
-  background-color: white;
-  margin: 25px;
-  margin-left: 0;
+  background-color: #FFF;
+  margin-bottom: 25px;
   border-radius: 10px;
   border: 1px solid #DDD;
   overflow: hidden;
+  color: #777;
+  text-decoration: none;
+  box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+  transition: all .3s ease;
 }
+
+.post:hover {
+  transform: translate(0px, -2px);
+  box-shadow: 0 15px 45px -10px rgba(10, 16, 34, 0.2);
+}
+
 
 .post-text {
   flex: 1;
@@ -101,8 +131,8 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 }
 
 .post-image {
-  width: 200px;
-  > a {
+  width: 25%;
+  > span {
     width: 100%;
     height: 100%;
     display: block;
@@ -112,22 +142,15 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 }
 
 .post-title {
-  background-color: white;
-  display: block;
-  text-decoration: none;
-  color: blue;
+  color: #333;
   font-size: 24px;
   font-weight: bold;
 }
 
 .post-date {
-  color: #888;
   font-size: 12px;
   margin: 10px 0;
 }
 
 .post-excerpt {
-  > p {
-    background-color: white;
-  }
 }

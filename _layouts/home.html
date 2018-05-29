@@ -7,28 +7,29 @@ layout: default
   {%- if site.posts.size > 0 -%}
     {%- for post in site.posts -%}
 
-    <div class="post">
+    <a class="post" href="{{ post.url | relative_url }}">
 
       <div class="post-image">
-        <a style="background-image: url({{ "/assets/example-image.jpg" | relative_url }})" ></a>
+        <span style="background-image: url({{ "/assets/example-image.jpg" | relative_url }})" ></span>
       </div>
 
       <div class="post-text">
-        <h2>
-          <a class="post-title" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
+        <h2 class="post-title">
+          {{ post.title | escape }}
         </h2>
 
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <div class="post-date">{{ post.date | date: date_format }}</div>
+        <div class="post-date">
+          <i class="far fa-clock"></i>
+          {{ post.date | date: date_format }}
+        </div>
 
-        {%- if site.show_excerpts -%}
-          <div class="post-excerpt">{{ post.excerpt }}</div>
+        {%- if post.tagline -%}
+          <div class="post-tagline">{{ post.tagline }}</div>
         {%- endif -%}
       </div>
 
-    </div>
+    </a>
 
     {%- endfor -%}
   {%- endif -%}

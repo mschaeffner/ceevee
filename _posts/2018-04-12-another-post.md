@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Just another post"
+tagline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui nisi, euismod et rutrum eu, facilisis ac ante."
 categories: example
 ---
 
