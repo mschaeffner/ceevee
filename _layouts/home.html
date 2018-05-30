@@ -6,33 +6,7 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     {%- for post in site.posts -%}
-
-    <a class="post" href="{{ post.url | relative_url }}">
-
-      <div class="post-image">
-        <span style="background-image: url({{ "/assets/example-image.jpg" | relative_url }})" ></span>
-      </div>
-
-      <div class="post-text">
-        <h2 class="post-title">
-          {{ post.title | escape }}
-        </h2>
-
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <div class="post-date">
-          {{ post.date | date: date_format }}
-        </div>
-
-        {%- if post.tagline -%}
-          <div class="post-tagline">
-            {{ post.tagline }}
-          </div>
-        {%- endif -%}
-
-      </div>
-
-    </a>
-
+      {%- include post_preview.html -%}
     {%- endfor -%}
   {%- endif -%}
 
