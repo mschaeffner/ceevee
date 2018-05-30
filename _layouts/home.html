@@ -20,13 +20,15 @@ layout: default
 
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <div class="post-date">
-          <i class="far fa-clock"></i>
           {{ post.date | date: date_format }}
         </div>
 
         {%- if post.tagline -%}
-          <div class="post-tagline">{{ post.tagline }}</div>
+          <div class="post-tagline">
+            {{ post.tagline }}
+          </div>
         {%- endif -%}
+
       </div>
 
     </a>

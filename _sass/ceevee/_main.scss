@@ -9,7 +9,12 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
 }
 
 body {
-  background-color: #f7f7f7;
+  background: linear-gradient(to left, #1d5c94, #032b56);
+  background: linear-gradient(to right, #EEE, #FFF);
+}
+
+a, a:hover, a:active, a:focus, a:visited {
+  color: #777;
 }
 
 .container {
@@ -37,13 +42,14 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50px;
-  border: 1px solid #DDD;
+  border: 1px solid #3B5998;
 }
 
 .sidebar-name {
   font-size: 20px;
   margin-top: 20px;
   font-family: 'PT Serif';
+  color: #3B5998;
 }
 
 .sidebar-title {
@@ -54,6 +60,7 @@ body {
 .sidebar-section {
   text-align: left;
   margin-top: 25px;
+  color: #3B5998;
   > p {
     color: #777;
   }
@@ -84,7 +91,7 @@ body {
 
 .nav-link {
   text-decoration: none;
-  color: #333;
+  color: #3B5998 !important;
   font-size: 24px;
   font-weight: bold;
   margin-right: 40px;
@@ -94,7 +101,7 @@ body {
 }
 
 .nav-link-active {
-  border-bottom: 4px solid #333;
+  border-bottom: 4px solid #3B5998;
 }
 
 
@@ -113,7 +120,6 @@ body {
   border-radius: 10px;
   border: 1px solid #DDD;
   overflow: hidden;
-  color: #777;
   text-decoration: none;
   box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
   transition: all .3s ease;
@@ -142,7 +148,7 @@ body {
 }
 
 .post-title {
-  color: #333;
+  color: #3B5998;
   font-size: 24px;
   font-weight: bold;
 }

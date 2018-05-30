@@ -7,5 +7,4 @@
 #
 layout: home
 title: Blog
-icon: "fa fa-list"
 ---
