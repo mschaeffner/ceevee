@@ -5,16 +5,18 @@
   </a>
 
   <h1 class="sidebar-name">{{ site.author }}</h1>
-  <h2 class="sidebar-title">Fullstack Developer</h2>
 
-  <div class="sidebar-section">
-    <h4>About</h2>
-    <p>I am a web developer focusing on front-end development.</p>
-  </div>
+  {%- if site.author_title -%}
+    <h2 class="sidebar-title">{{ site.author_title }}</h2>
+  {%- endif -%}
 
-  <div class="sidebar-section">
-    <h4>Contact</h2>
-      <p>I am a web developer focusing on front-end development.</p>
-  </div>
+  {%- if site.sidebar_sections -%}
+    {%- for section in site.sidebar_sections -%}
+      <div class="sidebar-section">
+        <h4>{{ section.title }}</h2>
+        <p>{{ section.text }}</p>
+      </div>
+    {%- endfor -%}
+  {%- endif -%}
 
 </div>
