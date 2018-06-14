@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div>
+
+  {%- assign posts = site.posts | where: "layout", "project" -%}
+  {%- if posts.size > 0 -%}
+    {%- for post in posts -%}
+      {%- include project_preview.html -%}
+    {%- endfor -%}
+  {%- endif -%}
+
+</div>

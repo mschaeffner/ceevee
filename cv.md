@@ -1,7 +1,5 @@
 ---
-layout: page
+layout: cv
 title: CV
 permalink: /cv/
 ---
-
-This is the CV page.
