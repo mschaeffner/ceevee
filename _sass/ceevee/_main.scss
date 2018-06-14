@@ -6,6 +6,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
   padding: 0;
   font-family: 'Lato';
   line-height: 150%;
+  font-size: 16px;
 }
 
 body {
@@ -13,9 +14,11 @@ body {
   background: linear-gradient(to right, #EEE, #FFF);
 }
 
+/*
 a, a:hover, a:active, a:focus, a:visited {
   color: #777;
 }
+*/
 
 .container {
   position: relative;
@@ -24,6 +27,6 @@ a, a:hover, a:active, a:focus, a:visited {
 .main {
   padding-left: 270px;
   padding-right: 20px;
-  max-width: 1250px;
+  max-width: 1200px;
   box-sizing: border-box;
 }
