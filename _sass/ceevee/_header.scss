@@ -1,0 +1,28 @@
+.header {
+
+}
+
+.nav {
+  padding: 20px 0 40px 0;
+  text-align: center;
+}
+
+.nav-icon {
+  margin-right: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #3B5998 !important;
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 3px;
+}
+
+.nav-link-active {
+  border-bottom: 4px solid #3B5998;
+}

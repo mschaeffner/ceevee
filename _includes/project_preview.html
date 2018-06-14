@@ -1,21 +1,16 @@
-<a class="post-preview" href="{{ post.url | relative_url }}">
+<a class="project-preview" href="{{ post.url | relative_url }}">
 
-  <div class="post-preview-image">
+  <div class="project-preview-image">
     <span style="background-image: url({{ post.image | relative_url }})" ></span>
   </div>
 
-  <div class="post-preview-text">
-    <h2 class="post-preview-title">
+  <div class="project-preview-text">
+    <h2 class="project-preview-title">
       {{ post.title | escape }}
     </h2>
 
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    <div class="post-preview-date">
-      {{ post.date | date: date_format }}
-    </div>
-
     {%- if post.tagline -%}
-      <div class="post-preview-tagline">
+      <div class="project-preview-tagline">
         {{ post.tagline }}
       </div>
     {%- endif -%}

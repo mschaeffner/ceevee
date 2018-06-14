@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "This is the title of the example post"
+layout: project
+title: "Third project"
 tagline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui nisi, euismod et rutrum eu, facilisis ac ante."
 author: "Mathias Schaeffner"
 categories: example

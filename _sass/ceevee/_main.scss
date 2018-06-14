@@ -21,94 +21,9 @@ a, a:hover, a:active, a:focus, a:visited {
   position: relative;
 }
 
-.sidebar {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  text-align: center;
-  width: 250px;
-  background-color: #FFF;
-  padding: 25px;
-  border-right: 1px solid #EEE;
-  box-sizing: border-box;
-  background-color: #FFF;
-  color: #333;
-  box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-}
-
-.sidebar-image {
-  background: grey;
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  border: 1px solid #3B5998;
-}
-
-.sidebar-name {
-  font-size: 20px;
-  margin-top: 20px;
-  font-family: 'PT Serif';
-  color: #3B5998;
-}
-
-.sidebar-title {
-  font-size: 14px;
-  color: #777;
-}
-
-.sidebar-section {
-  text-align: left;
-  margin-top: 25px;
-  color: #3B5998;
-  > p {
-    color: #777;
-  }
-}
-
 .main {
   padding-left: 270px;
   padding-right: 20px;
   max-width: 1250px;
   box-sizing: border-box;
-}
-
-
-
-
-
-.header {
-
-}
-
-.nav {
-  padding: 20px 0 40px 0;
-  text-align: center;
-}
-
-.nav-icon {
-  margin-right: 10px;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #3B5998 !important;
-  font-size: 24px;
-  font-weight: bold;
-  margin-left: 25px;
-  margin-right: 25px;
-  text-transform: uppercase;
-  border-bottom: 1px solid transparent;
-  padding-bottom: 3px;
-}
-
-.nav-link-active {
-  border-bottom: 4px solid #3B5998;
-}
-
-
-
-
-.content {
-
 }

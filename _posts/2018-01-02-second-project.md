@@ -1,7 +1,8 @@
 ---
 layout: project
-title: "First project"
+title: "Second project"
 tagline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui nisi, euismod et rutrum eu, facilisis ac ante."
+author: "Mathias Schaeffner"
 categories: example
 image: "/assets/example-image.jpg"
 ---
