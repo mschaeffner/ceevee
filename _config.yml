@@ -1,6 +1,6 @@
 title: My personal website
 author: Mathias Schaeffner
-author_title: Fullstack Developer
+author_title: Photographer
 email: mschaeffner@example.com
 description: > # this means to ignore newlines until "twitter_username:"
   Write an awesome description for your new site here. You can edit this
@@ -8,9 +8,9 @@ description: > # this means to ignore newlines until "twitter_username:"
 
 sidebar_sections:
   - title: "About"
-    text: "I am a web developer focusing on front-end development."
+    text: "I am a photographer that like to go out into nature."
   - title: "Contact"
-    text: "Just write me an email"
+    text: "Just write me an email."
 
 # social links
 twitter_username: jekyllrb
