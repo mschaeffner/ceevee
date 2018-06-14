@@ -2,7 +2,6 @@
 layout: project
 title: "First project"
 tagline: "Lorem ipsum"
-author: "Mathias Schaeffner"
 categories: example
 image: "/assets/img8.JPG"
 ---

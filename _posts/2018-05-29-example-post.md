@@ -2,7 +2,6 @@
 layout: post
 title: "This is the title of the example post"
 tagline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui nisi, euismod et rutrum eu, facilisis ac ante."
-author: "Mathias Schaeffner"
 categories: example
 image: "/assets/img1.JPG"
 ---
