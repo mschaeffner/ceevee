@@ -4,7 +4,7 @@ title: "Forth project"
 tagline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui nisi, euismod et rutrum eu, facilisis ac ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui nisi, euismod et rutrum eu, facilisis ac ante."
 author: "Mathias Schaeffner"
 categories: example
-image: "/assets/example-image.jpg"
+image: "/assets/img6.JPG"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui nisi, euismod et rutrum eu, facilisis ac ante. Aliquam cursus dictum cursus. Nunc hendrerit, lorem nec gravida tempus, nisi ligula auctor ante, a commodo nunc risus eget augue. Proin hendrerit, mi sit amet lobortis mattis, dui lorem congue sapien, sed tempor lacus lectus et quam. Cras euismod faucibus massa, id condimentum ex placerat et. Suspendisse potenti. Integer aliquam ut nibh et tempor.
