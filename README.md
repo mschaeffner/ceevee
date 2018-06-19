@@ -1,10 +1,4 @@
 
-# todos
-  * style project page
-  * style timeline page
-  * include social media icons
-  * extract default colors, font-size, etc into global scss variables
-
 # ceevee
 
 Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
