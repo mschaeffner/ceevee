@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "twitter_username:"
 
 sidebar_sections:
   - title: "About"
-    text: "I am a photographer that like to go out into nature."
+    text: "I am a photographer. I like to go out into nature."
   - title: "Contact"
     text: "Just write me an email."
 
