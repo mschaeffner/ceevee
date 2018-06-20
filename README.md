@@ -62,6 +62,71 @@ sidebar_sections:
     text: "Just write me an email."
 ```
 
+### Layouts
+
+#### home
+
+The `home` layout shows a preview list of all posts that have their layout set to `post`.
+
+#### portfolio
+
+The `portfolio` layout shows a preview list of all posts that have their layout set to `project`.
+
+#### timeline
+
+When using the `timeline` layout, you have to fill in the content into the page it self. Example:
+
+```
+---
+layout: timeline
+title: CV
+permalink: /cv/
+---
+
+<h1>Experience</h1>
+
+<div class="section">
+  <div class="bubble"></div>
+  <div class="date">04/2009 - 10/2015</div>
+  <h2>Senior Super Professional</h2>
+  <h3>Some Company Name | Berlin (DE)</h3>
+  <a class="link" target="_blank" href="http://www.example.com">http://www.example.com</a>
+
+  <ul class="description">
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+  </ul>
+
+  <div class="tags">
+    <span>Tag 1</span>
+    <span>Tag 2</span>
+    <span>Tag 3</span>
+  </div>
+</div>
+
+<div class="section">
+  <div class="bubble"></div>
+  <div class="crossline"></div>
+  <div class="date">04/2009 - 10/2015</div>
+  <h2>Senior Super Professional</h2>
+  <h3>Some Company Name | Berlin (DE)</h3>
+  <a class="link" target="_blank" href="http://www.example.com">http://www.example.com</a>
+
+  <ul class="description">
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+  </ul>
+
+  <div class="tags">
+    <span>Tag 1</span>
+    <span>Tag 2</span>
+    <span>Tag 3</span>
+  </div>
+</div>
+```
+
 
 ## Contributing
 
