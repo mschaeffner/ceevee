@@ -1,8 +1,10 @@
 <div class="sidebar">
 
-  <a href="/">
-    <img src="{{ "/assets/sidebar-image.jpg" | relative_url }}" class="sidebar-image" />
-  </a>
+  {%- if site.author_picture -%}
+    <a href="/">
+      <img src="{{ site.author_picture | relative_url }}" class="sidebar-profile-picture" />
+    </a>
+  {%- endif -%}
 
   <h1 class="sidebar-name">{{ site.author }}</h1>
 

@@ -1,9 +1,9 @@
 ---
-layout: project
-title: "Forth project"
-tagline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui nisi, euismod et rutrum eu, facilisis ac ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui nisi, euismod et rutrum eu, facilisis ac ante."
+layout: post
+title: "This is the title of the example post"
+tagline: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui nisi, euismod et rutrum eu, facilisis ac ante."
 categories: example
-image: "/assets/img6.JPG"
+image: "/preview_images/img1.jpg"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dui nisi, euismod et rutrum eu, facilisis ac ante. Aliquam cursus dictum cursus. Nunc hendrerit, lorem nec gravida tempus, nisi ligula auctor ante, a commodo nunc risus eget augue. Proin hendrerit, mi sit amet lobortis mattis, dui lorem congue sapien, sed tempor lacus lectus et quam. Cras euismod faucibus massa, id condimentum ex placerat et. Suspendisse potenti. Integer aliquam ut nibh et tempor.
