@@ -128,6 +128,21 @@ permalink: /cv/
 ```
 
 
+### Posts
+
+Posts should have at least the following front matter:
+```
+---
+layout: post
+title: "Lorem ipsum"
+tagline: "Lorem ipsum and a bit more"
+image: "/assets/img1.jpg"
+---
+```
+
+The value for `layout` can be `post`or `project`.
+
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/mschaeffner/ceevee. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
