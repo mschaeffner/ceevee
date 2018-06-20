@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "ceevee"
-  spec.version       = "0.1.1"
+  spec.version       = "0.1.2"
   spec.authors       = ["Mathias Schaeffner"]
   spec.email         = ["mschaeffner@example.com"]
 
@@ -14,7 +14,7 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README|screenshot.png)!i) }
 
-  spec.add_runtime_dependency "jekyll", "~> 3.8"
+  spec.add_runtime_dependency "jekyll", "~> 3.7"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
 
   spec.add_development_dependency "bundler", "~> 1.16"
