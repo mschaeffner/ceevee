@@ -26,6 +26,14 @@ And add this line to your Jekyll site's `_config.yml`:
 theme: ceevee
 ```
 
+If you want to publish you site to GitHub pages, then you also have to define the following properties:
+
+```yaml
+remote_theme: mschaeffner/ceevee
+url: <your-github-username>.github.io
+baseurl: /<your-github-repository>
+```
+
 Then execute:
 ```
 $ bundle install
