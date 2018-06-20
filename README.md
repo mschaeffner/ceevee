@@ -1,11 +1,20 @@
 
 # ceevee
 
-Ceevee is a Jekyll theme for a personal website. It has a blog, a projects page and a timeline that can be used for a CV.
+ceevee is a Jekyll theme for a personal website. It has a blog, a projects page and a timeline that can be used for a CV.
 
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+If you haven't already, set up a new Jekyll site:
+```
+gem install bundler jekyll
+jekyll new my-awesome-site
+cd my-awesome-site
+bundle exec jekyll serve
+# => Now browse to http://localhost:4000 to see your site
+```
+
+Add the following line to your Jekyll site's `Gemfile`:
 
 ```ruby
 gem "ceevee"
@@ -17,17 +26,42 @@ And add this line to your Jekyll site's `_config.yml`:
 theme: ceevee
 ```
 
-And then execute:
+Then execute:
+```
+$ bundle install
+```
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install ceevee
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+### Configuration in `_config.yml`
+
+You can add the following properties in `_config.yml` to customize the sidebar and page header.
+
+```
+# Author will be shown in sidebar.
+author: "Your name"
+
+# Author's title will be shown in sidebar below name.
+author_title: "Your title"
+
+# A path that points to the author's profile picture.
+author_picture: /assets/profile-picture.jpg
+
+# A list of pages that get linked from the header.
+header_pages:
+ - index.md
+ - projects.md
+ - cv.html
+
+# A list of sections that will be shown in sidebar.
+sidebar_sections:
+  - title: "About"
+    text: "I am a photographer. I like to go out into nature."
+  - title: "Contact"
+    text: "Just write me an email."
+```
+
 
 ## Contributing
 
