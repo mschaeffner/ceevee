@@ -1,7 +1,7 @@
 
 # ceevee
 
-ceevee is a Jekyll theme for a personal website. It has a blog, a projects page and a timeline that can be used for a CV.
+ceevee is a Jekyll theme for a personal website. It has a blog, a projects page and a timeline that can be used for a CV. An example website that uses this Jekyll theme is https://mschaeffner.com
 
 ## Installation
 
