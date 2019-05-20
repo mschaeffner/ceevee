@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div>
+
+  {%- assign posts = site.posts | where: "layout", "post" | where: "category", "labfolder"  -%}
+  {%- if posts.size > 0 -%}
+    {%- for post in posts -%}
+      {%- include post_preview.html -%}
+    {%- endfor -%}
+  {%- endif -%}
+
+</div>
